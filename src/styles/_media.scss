@@ -1,0 +1,58 @@
+@media (max-width: 720px) {
+	.Header {
+		height: 80px;
+	}
+
+	.SearchPanel {
+		&__fieldset {
+			top: 80px;
+			width: 80%;
+		}
+	}
+
+	.List {
+		&__container {
+			width: 90%;
+		}
+	}
+
+	.UserCard {
+		&__container {
+			grid-template-columns: auto;
+			gap: 1rem;
+		}
+
+		&__bio {
+			grid-column: auto;
+		}
+
+		&__info {
+			width: 100%;
+		}
+	}
+
+	.info {
+		&__name {
+			text-align: center;
+		}
+	}
+}
+
+@media (max-width: 480px) {
+	.Header {
+		height: 75px;
+	}
+
+	.SearchPanel {
+		&__fieldset {
+			top: 75px;
+			width: 90%;
+		}
+	}
+
+	.List {
+		&__container {
+			width: 100%;
+		}
+	}
+}

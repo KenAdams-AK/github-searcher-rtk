@@ -1,0 +1,13 @@
+.Header {
+	position: sticky;
+	top: 0;
+	height: 100px;
+	background-color: $color-error;
+	border-bottom: 1px solid $color-dark;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	z-index: 1;
+}

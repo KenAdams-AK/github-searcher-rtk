@@ -1,0 +1,9 @@
+.repo {
+	&__link {
+		@include item-link;
+	}
+
+	&__info {
+		margin-left: auto;
+	}
+}

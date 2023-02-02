@@ -1,0 +1,14 @@
+.SearchPanel {
+	&__fieldset {
+		width: 50%;
+		margin: 0 auto;
+		position: sticky;
+		top: 100px;
+		padding: 1rem 0;
+	}
+
+	&__input {
+		width: 100%;
+		padding: 1rem;
+	}
+}
